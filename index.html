@@ -4,10 +4,71 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
     <meta charset="utf-8">
-    <title>Mad Libs</title>
+    <title>Romance Passage Creator</title>
   </head>
   <body>
-    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <div class="container">
+        <h1>Put your friend into a romance novel!</h1>
+        <div id="blanks">
+          <form>
+            <div class="form-group">
+              <label for="friend">Your friend's name</label>
+              <input id="friend" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="friendgenderpo">Your friend's gender possessive, i.e. her, his, their</label>
+              <input id="friendgenderpo" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="friendhair">Your friend's hair color</label>
+              <input id="friendhair" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="romancename">The love interest's name</label>
+              <input id="romancename" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="romancegender">The love interest's pronoun, i.e. her, him, them</label>
+              <input id="romancegender" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="romancegenderpo">The love interest's gender possessive, i.e. her, his, their</label>
+              <input id="romancegenderpo" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="eyecolor">The love interest's eye color</label>
+              <input id="eyecolor" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="object">An object</label>
+              <input id="object" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="instrument">A musical instrument</label>
+              <input id="instrument" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="location">A location</label>
+              <input id="location" class="form-control" type="text">
+            </div>
+
+            <button type="submit" class="btn">Show me the story!</button>
+          </form>
+        </div>
+
+        <div id="story">
+          <h1>Torrid Tensions</h1>
+          <p>The night was dark, very dark. <span class="friend"></span> tossed <span class="friendgenderpo"></span> <span class="friendhair"></span> hair in the slight breeze and checked <span class="friendgenderpo"></span> watch. "Great," <span class="friend"></span> thought, "my contact is late." The briefcase felt heavy in <span class="friendgenderpo"></span> hand, but not as heavy as the gun in <span class="friendgenderpo"></span> holster. This deal could go bad, fast, but <span class="friend"></span> was the best of the best and that's why they had sent <span class="friendgenderpo"></span>.</p>
+          <p>Suddenly, a dark figure appeared at the edge of the empty lot. This had to be <span class="romancegender"></span>, <span class="romancename"></span>. Yes, <span class="friend"></span> could see the <span class="object"></span> in <span class="romancegenderpo"></span> hand. <span class="friend"></span> felt a quiver of anticipation. Had the night suddenly gotten warmer? It sure seemed that way when <span class="romancename"></span> stepped up close. Those eyes! <span class="friend"></span> had never seen <span class="eyecolor"></span> eyes glow like that. It was mesmerizing. Then, <span class="romancename"></span> spoke.</p>
+          <p>"You have the money?"</p>
+          <p><span class="friend"></span> swayed under the power of that voice. The sound of it was hypnotizing, like a <span class="instrument"></span> playing liltingly in the very far distance. The briefcase fell to the ground with sharp punctuation.<p>
+          <p><span class="romancename"></span> looked sharply at <span class="friend"></span>. When their eyes met, understanding lanced between them. <span class="romancename"></span> threw <span class=romancegenderpo></span> <span class="object"></span> down as well and then they made out a lot.</p>
+          <p>The two ditched their lives of intense crime drama plots and ran away to be together forever in <span class="location"></span>.</p>
+          <p>The End.</p>
+        </div>
+    </div>
+
+    <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
