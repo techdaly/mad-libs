@@ -1,6 +1,7 @@
 
   $("#blanks form").submit(function(event) {
     var friendInput = $("input#friend").val();
+    var friendgenderInput = $("input#friendgender").val();
     var friendgenderpoInput = $("input#friendgenderpo").val();
     var friendhairInput = $("input#friendhair").val();
     var romancenameInput = $("input#romancename").val();
@@ -12,6 +13,7 @@
     var locationInput = $("input#location").val();
 
     $(".friend").text(friendInput);
+    $(".friendgender").text(friendgenderInput);
     $(".friendgenderpo").text(friendgenderpoInput);
     $(".friendhair").text(friendhairInput);
     $(".romancename").text(romancenameInput);
